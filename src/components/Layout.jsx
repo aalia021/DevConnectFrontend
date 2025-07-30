@@ -30,9 +30,9 @@ const Layout = () => {
     fetchUser();
   }, []);
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen bg-[#0f172a]">
       <NavBar />
-      <div className="flex-grow flex justify-center items-center">
+      <div className=" ">
         <Outlet />
       </div>
       <Footer />
